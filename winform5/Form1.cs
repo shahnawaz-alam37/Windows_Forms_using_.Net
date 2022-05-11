@@ -18,13 +18,11 @@ namespace winform5
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-
+        {//generated for prototyping
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+        {//generated for prototyping 
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -49,8 +47,8 @@ namespace winform5
 
         private void newOneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 ff = new Form2();
-            ff.Show(); 
+            Form2 ff = new Form2();//creating an object of form to which we want to link
+            ff.ShowDialog(); //using the object to open the form
         }
     }
 }
